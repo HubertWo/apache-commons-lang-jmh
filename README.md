@@ -23,5 +23,11 @@ StringBuilderBenchmark.stringBuilderPrimitiveInt  thrpt   25  32852819.319 ± 26
 
 ### StringUtils.join with StringJoiner
 ```shell
-TODO
+Result "com.github.hubertwo.acljmh.StringJoinerBenchmark.stringJoinerPrimitiveInt":
+  9939007.810 ±(99.9%) 144657.469 ops/s [Average]
+  (min, avg, max) = (9368750.544, 9939007.810, 10161440.199), stdev = 193113.582
+  CI (99.9%): [9794350.341, 10083665.279] (assumes normal distribution)
+  
+Benchmark                                        Mode  Cnt        Score        Error  Units
+StringJoinerBenchmark.stringJoinerPrimitiveInt  thrpt   25  9939007.810 ± 144657.469  ops/s  
 ```
