@@ -18,14 +18,14 @@ public class StringJoinerBenchmark {
         return StringUtils.join(INT_ARRAY, DELIMITER);
     }
 
-//    @Benchmark
-//    public String stringJoinerPrimitiveBoolean() {
-//        return StringUtils.join(BOOLEAN_ARRAY, DELIMITER);
-//    }
-//
-//    @Benchmark
-//    public String stringJoinerPrimitiveLong() {
-//        return StringUtils.join(LONG_ARRAY, DELIMITER);
-//    }
+    @Benchmark
+    public String stringJoinerPrimitiveBoolean() {
+        return StringUtils.join(BOOLEAN_ARRAY, DELIMITER);
+    }
+
+    @Benchmark
+    public String stringJoinerPrimitiveLong() {
+        return StringUtils.join(LONG_ARRAY, DELIMITER);
+    }
 
 }
