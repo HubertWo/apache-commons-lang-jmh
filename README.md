@@ -22,6 +22,7 @@ StringBuilderBenchmark.stringBuilderPrimitiveInt  thrpt   25  32852819.319 ± 26
 ```
 
 ### StringUtils.join with StringJoiner
+Please find full log [here](string-joiner/README.md)
 ```shell
 Result "com.github.hubertwo.acljmh.StringJoinerBenchmark.stringJoinerPrimitiveInt":
   9939007.810 ±(99.9%) 144657.469 ops/s [Average]
