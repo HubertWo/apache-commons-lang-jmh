@@ -1,4 +1,4 @@
-name: Unit tests
+name: String-joiner benchmark
 
 on:
   push:
@@ -18,5 +18,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: string-joiner
+      - name: Open string-joiner project
         run: cd string-joiner
+      - name: mvn verify
+        run: mvn clean verify
+
