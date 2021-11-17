@@ -2,6 +2,9 @@
 
 This test uses the latest build of Apache Commons - 3.12.0
 
+Please find example run on GitHub actions:
+https://github.com/HubertWo/apache-commons-lang-jmh/actions/runs/1472861050
+
 ### How to run benchmarks?
 As described on https://github.com/openjdk/jmh :
 ```shell
