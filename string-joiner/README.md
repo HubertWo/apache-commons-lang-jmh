@@ -3,7 +3,7 @@
 This test uses the latest build of Apache Commons - 3.12.0
 
 Please find example run on GitHub actions (Java8):
-https://github.com/HubertWo/apache-commons-lang-jmh/actions/runs/1472861050
+https://github.com/HubertWo/apache-commons-lang-jmh/runs/4241475267?check_suite_focus=true
 
 ### How to run benchmarks?
 As described on https://github.com/openjdk/jmh :

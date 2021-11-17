@@ -1,7 +1,10 @@
 # StringBuilder benchmark 
 
-Please note that this tests require SNAPSHOT build from:
-https://github.com/apache/commons-lang/pull/812
+Please note that this tests require SNAPSHOT build from: https://github.com/apache/commons-lang/pull/812 \
+Snapshot JAR is also available in snapshot directory in this repo.
+
+Please find example run on GitHub actions (Java8):
+https://github.com/HubertWo/apache-commons-lang-jmh/runs/4242012768?check_suite_focus=true
 
 ### How to run benchmarks?
 As described on https://github.com/openjdk/jmh :
