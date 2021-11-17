@@ -20,4 +20,6 @@ jobs:
           java-version: 1.8
       - name: mvn verify
         run: cd string-joiner; mvn clean verify
+      - name: run benchmark
+        run: java -jar string-joiner/target/benchmarks.jar
 
