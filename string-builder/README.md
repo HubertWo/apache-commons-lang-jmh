@@ -1,8 +1,35 @@
 # StringBuilder benchmark 
 
 Please note that this tests require SNAPSHOT build from:
-https://github.com/HubertWo/commons-lang/pull/4
+https://github.com/apache/commons-lang/pull/812
 
+### How to run benchmarks?
+As described on https://github.com/openjdk/jmh :
+```shell
+cd  string-builder/
+mvn clean verify
+java -jar target/benchmarks.jar
+```
+```shell
+...
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.276 s
+[INFO] Finished at: 2021-11-17T18:06:43+01:00
+[INFO] ------------------------------------------------------------------------
+string-builder % java -jar target/benchmarks.jar
+# JMH version: 1.33
+# VM version: JDK 17, OpenJDK 64-Bit Server VM, 17+35-2724
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.hubertwo.acljmh.StringBuilderBenchmark.stringBuilderPrimitiveBoolean
+...
+```
 
 ## Example run 
 ```shell

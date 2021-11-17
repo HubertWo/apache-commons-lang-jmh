@@ -9,10 +9,6 @@ public class StringBuilderBenchmark {
     private static final boolean[] BOOLEAN_ARRAY = new boolean[]{false, true, true, false};
     private static final char DELIMITER = ',';
 
-    public static void main(String[] args) throws Exception {
-        org.openjdk.jmh.Main.main(args);
-    }
-
     @Benchmark
     public String stringBuilderPrimitiveInt() {
         return StringUtils.join(INT_ARRAY, DELIMITER);

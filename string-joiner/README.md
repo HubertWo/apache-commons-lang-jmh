@@ -1,6 +1,34 @@
 # StringJoiner benchmark 
 
-This test uses latest build of Apache Commons - 3.12.0
+This test uses the latest build of Apache Commons - 3.12.0
+
+### How to run benchmarks?
+As described on https://github.com/openjdk/jmh :
+```shell
+cd  string-joiner/
+mvn clean verify
+java -jar target/benchmarks.jar
+```
+```shell
+...
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.302 s
+[INFO] Finished at: 2021-11-17T18:09:54+01:00
+[INFO] ------------------------------------------------------------------------
+hubert@mac string-joiner % java -jar target/benchmarks.jar
+# JMH version: 1.33
+# VM version: JDK 17, OpenJDK 64-Bit Server VM, 17+35-2724
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.hubertwo.acljmh.StringJoinerBenchmark.stringJoinerPrimitiveBoolean
+...
+```
 
 ## Example run
 ```shell

@@ -2,9 +2,11 @@
 
 Benchmarks use stable version of Apache Common Utils and SNAPSHOT that use StringBuilder instead of StringJoiner.
 
-Related PR: https://github.com/HubertWo/commons-lang/pull/4 \
+Related PR: https://github.com/apache/commons-lang/pull/812 \
 More here: https://issues.apache.org/jira/browse/LANG-1675
 
+## How to run benchmarks?
+Instructions are in readme files inside string-builder and string-joiner directories. 
 
 ## Results
 
