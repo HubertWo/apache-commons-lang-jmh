@@ -1,11 +1,11 @@
 name: String-joiner benchmark
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches: [ main ]
+#on:
+#  push:
+#    branches:
+#      - main
+#  pull_request:
+#    branches: [ main ]
 
 jobs:
   build:
