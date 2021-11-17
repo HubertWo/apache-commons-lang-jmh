@@ -33,6 +33,9 @@ string-builder % java -jar target/benchmarks.jar
 
 ## Example run 
 ```shell
+# JMH version: 1.33
+# VM version: JDK 17, OpenJDK 64-Bit Server VM, 17+35-2724
+# VM options: <none>
 # Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
 # Warmup: 5 iterations, 10 s each
 # Measurement: 5 iterations, 10 s each
@@ -43,77 +46,77 @@ string-builder % java -jar target/benchmarks.jar
 
 # Run progress: 0.00% complete, ETA 00:08:20
 # Fork: 1 of 5
-# Warmup Iteration   1: 31671009.520 ops/s
-# Warmup Iteration   2: 32171511.859 ops/s
-# Warmup Iteration   3: 33317078.471 ops/s
-# Warmup Iteration   4: 33504922.374 ops/s
-# Warmup Iteration   5: 33493301.255 ops/s
-Iteration   1: 33329982.016 ops/s
-Iteration   2: 33249975.110 ops/s
-Iteration   3: 33297643.832 ops/s
-Iteration   4: 33519417.293 ops/s
-Iteration   5: 33472042.755 ops/s
+# Warmup Iteration   1: 31519407.227 ops/s
+# Warmup Iteration   2: 30552409.186 ops/s
+# Warmup Iteration   3: 31130460.711 ops/s
+# Warmup Iteration   4: 31536535.637 ops/s
+# Warmup Iteration   5: 31758687.304 ops/s
+Iteration   1: 31799560.570 ops/s
+Iteration   2: 32459746.339 ops/s
+Iteration   3: 32644089.946 ops/s
+Iteration   4: 32883163.303 ops/s
+Iteration   5: 32922851.555 ops/s
 
-# Run progress: 20.00% complete, ETA 00:06:43
+# Run progress: 20.00% complete, ETA 00:06:41
 # Fork: 2 of 5
-# Warmup Iteration   1: 31822851.700 ops/s
-# Warmup Iteration   2: 32426404.712 ops/s
-# Warmup Iteration   3: 32706607.236 ops/s
-# Warmup Iteration   4: 32885431.179 ops/s
-# Warmup Iteration   5: 33060845.042 ops/s
-Iteration   1: 33008749.695 ops/s
-Iteration   2: 32988998.255 ops/s
-Iteration   3: 33019488.523 ops/s
-Iteration   4: 33064538.897 ops/s
-Iteration   5: 33031462.776 ops/s
+# Warmup Iteration   1: 31706076.627 ops/s
+# Warmup Iteration   2: 32338584.051 ops/s
+# Warmup Iteration   3: 26577661.564 ops/s
+# Warmup Iteration   4: 28613800.889 ops/s
+# Warmup Iteration   5: 32765705.864 ops/s
+Iteration   1: 32831146.462 ops/s
+Iteration   2: 32886665.944 ops/s
+Iteration   3: 32847268.690 ops/s
+Iteration   4: 32788358.816 ops/s
+Iteration   5: 32874513.526 ops/s
 
-# Run progress: 40.00% complete, ETA 00:05:02
+# Run progress: 40.00% complete, ETA 00:05:00
 # Fork: 3 of 5
-# Warmup Iteration   1: 31538111.401 ops/s
-# Warmup Iteration   2: 32007697.671 ops/s
-# Warmup Iteration   3: 32518267.864 ops/s
-# Warmup Iteration   4: 32532107.784 ops/s
-# Warmup Iteration   5: 32546627.015 ops/s
-Iteration   1: 32330436.047 ops/s
-Iteration   2: 32524023.560 ops/s
-Iteration   3: 32396805.916 ops/s
-Iteration   4: 32502871.693 ops/s
-Iteration   5: 32531951.304 ops/s
+# Warmup Iteration   1: 30230362.766 ops/s
+# Warmup Iteration   2: 30699267.792 ops/s
+# Warmup Iteration   3: 31458122.481 ops/s
+# Warmup Iteration   4: 31484572.319 ops/s
+# Warmup Iteration   5: 31411496.765 ops/s
+Iteration   1: 31513743.502 ops/s
+Iteration   2: 31487302.876 ops/s
+Iteration   3: 31491256.566 ops/s
+Iteration   4: 31490158.064 ops/s
+Iteration   5: 31509785.815 ops/s
 
-# Run progress: 60.00% complete, ETA 00:03:21
+# Run progress: 60.00% complete, ETA 00:03:20
 # Fork: 4 of 5
-# Warmup Iteration   1: 31456668.415 ops/s
-# Warmup Iteration   2: 31970871.366 ops/s
-# Warmup Iteration   3: 32394065.319 ops/s
-# Warmup Iteration   4: 32523510.068 ops/s
-# Warmup Iteration   5: 32505776.546 ops/s
-Iteration   1: 32511639.833 ops/s
-Iteration   2: 32533430.492 ops/s
-Iteration   3: 32495139.267 ops/s
-Iteration   4: 32504899.698 ops/s
-Iteration   5: 32525048.411 ops/s
+# Warmup Iteration   1: 30935602.974 ops/s
+# Warmup Iteration   2: 31409946.891 ops/s
+# Warmup Iteration   3: 32037415.494 ops/s
+# Warmup Iteration   4: 31995795.449 ops/s
+# Warmup Iteration   5: 29368176.915 ops/s
+Iteration   1: 31560019.622 ops/s
+Iteration   2: 32054677.198 ops/s
+Iteration   3: 31997016.677 ops/s
+Iteration   4: 32041083.042 ops/s
+Iteration   5: 32010624.573 ops/s
 
 # Run progress: 80.00% complete, ETA 00:01:40
 # Fork: 5 of 5
-# Warmup Iteration   1: 31888518.975 ops/s
-# Warmup Iteration   2: 32436088.391 ops/s
-# Warmup Iteration   3: 32979041.117 ops/s
-# Warmup Iteration   4: 32967146.864 ops/s
-# Warmup Iteration   5: 32977638.241 ops/s
-Iteration   1: 32650002.791 ops/s
-Iteration   2: 32981453.136 ops/s
-Iteration   3: 32916191.755 ops/s
-Iteration   4: 32954541.292 ops/s
-Iteration   5: 32979748.636 ops/s
+# Warmup Iteration   1: 30916298.874 ops/s
+# Warmup Iteration   2: 31476456.996 ops/s
+# Warmup Iteration   3: 32043966.383 ops/s
+# Warmup Iteration   4: 32042613.545 ops/s
+# Warmup Iteration   5: 32068322.086 ops/s
+Iteration   1: 32040261.369 ops/s
+Iteration   2: 31980074.208 ops/s
+Iteration   3: 31985885.664 ops/s
+Iteration   4: 32020931.030 ops/s
+Iteration   5: 31952773.279 ops/s
 
 
 Result "com.github.hubertwo.acljmh.StringBuilderBenchmark.stringBuilderPrimitiveInt":
-  32852819.319 ±(99.9%) 266415.050 ops/s [Average]
-  (min, avg, max) = (32330436.047, 32852819.319, 33519417.293), stdev = 355656.469
-  CI (99.9%): [32586404.269, 33119234.369] (assumes normal distribution)
+  32162918.346 ±(99.9%) 395112.511 ops/s [Average]
+  (min, avg, max) = (31487302.876, 32162918.346, 32922851.555), stdev = 527463.898
+  CI (99.9%): [31767805.835, 32558030.857] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:08:23
+# Run complete. Total time: 00:08:21
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -122,7 +125,5 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                          Mode  Cnt         Score        Error  Units
-StringBuilderBenchmark.stringBuilderPrimitiveInt  thrpt   25  32852819.319 ± 266415.050  ops/s
-
-Process finished with exit code 0
+StringBuilderBenchmark.stringBuilderPrimitiveInt  thrpt   25  32162918.346 ± 395112.511  ops/s
 ```

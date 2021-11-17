@@ -14,13 +14,13 @@ public class StringBuilderBenchmark {
         return StringUtils.join(INT_ARRAY, DELIMITER);
     }
 
-    @Benchmark
-    public String stringBuilderPrimitiveBoolean() {
-        return StringUtils.join(BOOLEAN_ARRAY, DELIMITER);
-    }
-
-    @Benchmark
-    public String stringBuilderPrimitiveLong() {
-        return StringUtils.join(LONG_ARRAY, DELIMITER);
-    }
+//    @Benchmark
+//    public String stringBuilderPrimitiveBoolean() {
+//        return StringUtils.join(BOOLEAN_ARRAY, DELIMITER);
+//    }
+//
+//    @Benchmark
+//    public String stringBuilderPrimitiveLong() {
+//        return StringUtils.join(LONG_ARRAY, DELIMITER);
+//    }
 }
