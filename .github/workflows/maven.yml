@@ -15,8 +15,10 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
+      - name: install commons-lang3-3.13.0-SNAPSHOT
+        run: mvn install:install-file -Dfile=string-builder/snapshot/commons-lang3-3.13.0-SNAPSHOT.jar -DpomFile=string-builder/snapshot/commons-lang3-3.13.0-SNAPSHOT.pom
       - name: mvn verify
-        run: cd string-joiner; mvn clean verify
-      - name: run benchmark
-        run: java -jar string-joiner/target/benchmarks.jar
+        run: cd string-builder; mvn clean verify
+      - name: run benchmark string-builder
+        run: java -jar string-builder/target/benchmarks.jar
 
