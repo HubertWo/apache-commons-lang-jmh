@@ -1,6 +1,6 @@
 name: String-joiner benchmark
 
-#on:
+on:
 #  push:
 #    branches:
 #      - main
